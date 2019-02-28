@@ -5,4 +5,5 @@ RUN apt update && \
   iproute2 \
   iputils-ping \
   netcat \
+  openssh-client \
   vim

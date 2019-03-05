@@ -7,4 +7,5 @@ RUN apt update && \
   netcat \
   openssh-client \
   vim \
-  git
+  git \
+  rsync

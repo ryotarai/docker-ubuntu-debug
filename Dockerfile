@@ -6,4 +6,5 @@ RUN apt update && \
   iputils-ping \
   netcat \
   openssh-client \
-  vim
+  vim \
+  git

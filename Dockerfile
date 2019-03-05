@@ -8,4 +8,6 @@ RUN apt update && \
   openssh-client \
   vim \
   git \
-  rsync
+  rsync \
+  python3 \
+  python3-pip

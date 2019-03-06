@@ -11,4 +11,4 @@ RUN apt update && \
   rsync \
   python3 \
   python3-pip
-RUN pip3 install ansible
+RUN pip3 install ansible==2.7.8

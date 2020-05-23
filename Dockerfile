@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 RUN apt update && \
-  apt -y install dnsutils \
+  DEBIAN_FRONTEND=noninteractive apt -y install dnsutils \
   curl \
   iproute2 \
   iputils-ping \
